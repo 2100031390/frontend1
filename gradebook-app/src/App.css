@@ -1,0 +1,79 @@
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f0f0f0; 
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue;
+}
+.statistics {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5e4caf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a04571;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
